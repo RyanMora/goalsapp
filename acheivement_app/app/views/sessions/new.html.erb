@@ -1,0 +1,15 @@
+<h1>Please Log In</h1>
+
+<form action="<%=sessions_url%>" method="post">
+  <%=auth_token%>
+  <label for="Username">Username:
+    <input id="Username" type="text" name="user[username]">
+  </label>
+  <label for="Password">Password:
+    <input id="Password" type="password" name="user[password]">
+  </label>
+  <label for="submit">
+    <input id="submit" type="submit" >
+  </label>
+
+</form>
